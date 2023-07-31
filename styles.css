@@ -1,0 +1,56 @@
+body {
+    background-image: url('images/space.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    font-family: 'Tektur', cursive;
+}
+
+.container {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.675);
+    color: #fff;
+    padding: 1rem;
+    margin: 10rem auto;
+    border-radius: 10px;
+}
+
+input,
+select,
+button {
+    border: blue 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #fff;
+}
+
+option {
+    background-color: rgb(16, 3, 59);
+    color: #fff;
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.error_red {
+    color: red;
+}
+
+.answer,
+.choice__error,
+.num__error,
+h1 {
+    text-align: center;
+}
+
+.answer {
+    margin-bottom: 1.5rem;
+}
